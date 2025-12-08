@@ -14,7 +14,7 @@ export default function ThemeToggle() {
   }, []);
 
   if (!mounted) {
-    return null;
+    return <div className="h-5 w-5 bg-transparent"></div>;
   }
 
   return (

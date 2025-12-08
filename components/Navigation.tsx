@@ -10,7 +10,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href={"#"}
+            href={"/"}
             className="transition-all duration-300 hover:text-black dark:hover:text-white"
           >
             home
@@ -18,7 +18,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href={"#"}
+            href={"/projects"}
             className="transition-all duration-300 hover:text-black dark:hover:text-white"
           >
             projects
@@ -26,7 +26,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href={"#"}
+            href={"/skills"}
             className="transition-all duration-300 hover:text-black dark:hover:text-white"
           >
             skills
@@ -34,7 +34,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href={"#"}
+            href={"/contact"}
             className="transition-all duration-300 hover:text-black dark:hover:text-white"
           >
             contact
