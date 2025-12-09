@@ -20,25 +20,20 @@ export default function Home() {
       </div>
       <div className="space-x-8 text-sm">
         <Link
-          href={"https://github.com/0x0bito/"}
-          className="underline"
-          target="_blank"
-        >
-          Github
-        </Link>
-        <Link
           href={"https://linkedin.com/in/youssef-ahrour-2177a6383"}
           className="underline"
-          target="_blank"
         >
           Linkedin
         </Link>
-        <Link
-          href={"mailto:yo79ss79@gmail.com"}
-          className="underline"
-          target="_blank"
-        >
+        <Link href={"mailto:yo79ss79@gmail.com"} className="underline">
           Email
+        </Link>
+        <Link
+          href={"https://github.com/0x0bito/"}
+          className="underline"
+          target="_blan"
+        >
+          Github
         </Link>
       </div>
     </div>
