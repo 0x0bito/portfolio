@@ -3,6 +3,8 @@ import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
+import Image from "next/image";
+import Spider from "@/components/Spider";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -22,8 +24,29 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistMono.className} bg-primary text-foreground antialiased transition-all duration-300`}
+        className={`${geistMono.className} bg-primary text-foreground relative antialiased transition-all duration-300`}
       >
+        <div className="absolute top-0 right-0 block h-[150px] w-[150px] max-md:hidden">
+          <Image
+            src="/spiderweb.svg"
+            alt="spider"
+            width={150}
+            height={150}
+            className="fixed rotate-[1.2deg]"
+            priority
+          />
+          <div className="spiderLine"></div>
+          {/* <Spider /> */}
+          <Image
+            src="/spider.svg"
+            alt="spider"
+            width={32}
+            height={32}
+            priority
+            className="spider"
+          />
+        </div>
+
         <ThemeProvider attribute="class" defaultTheme="light">
           <header className="mx-auto w-full max-w-3xl space-y-10 p-16 pb-0 max-md:p-8 max-sm:p-4">
             <h1 className="text-center text-4xl font-bold tracking-tighter">

@@ -29,3 +29,42 @@
 .fadeIn {
   animation: fadeIn 0.3s ease forwards;
 }
+
+/* Spider Styling */
+
+@keyframes hideThenShow {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 142px;
+  }
+}
+
+@keyframes growLine {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 130px;
+  }
+}
+
+.spider {
+  rotate: 180deg;
+  position: absolute;
+  right: 29px;
+  animation: hideThenShow 1s ease-in-out forwards;
+}
+
+.spiderLine {
+  position: absolute;
+  border-width: 0px;
+  border-radius: 10px;
+  top: 20px;
+  right: 44px;
+  width: 2px;
+  height: 0px;
+  background-color: #ccc9c6;
+  animation: growLine 1s ease-in-out forwards;
+}
