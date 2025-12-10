@@ -12,8 +12,8 @@ export default function Home() {
           <p className="text-secondary text-[0.9rem] leading-7">
             Currently studying at 1337 coding school and actively looking for
             internship or junior developer opportunities. I’m comfortable
-            working remotely and ready to contribute to a team building real
-            products.
+            working remotely and ready to contribute to a team building
+            meaningful solutions.
           </p>
         </div>
       </div>
