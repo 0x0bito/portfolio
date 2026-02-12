@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
-import "./globals.css";
-import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
+import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
+import { Geist_Mono } from "next/font/google";
 import Image from "next/image";
+import "./globals.css";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -25,12 +25,12 @@ export default function RootLayout({
       <body
         className={`${geistMono.className} bg-primary text-foreground relative antialiased transition-all duration-300`}
       >
-        <div className="absolute top-0 right-0 block h-[150px] w-[150px] max-md:hidden">
+        <div className="absolute top-0 right-0 block h-[120px] w-[120px] max-md:hidden">
           <Image
             src="/spiderweb.svg"
             alt="spider"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="fixed rotate-[1.2deg]"
             priority
           />
