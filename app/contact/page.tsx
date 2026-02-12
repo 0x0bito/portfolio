@@ -37,11 +37,11 @@ export default function Contact() {
           </li>
           <li>
             <Link
-              href={"https://github.com/0x0bito/"}
+              href={"https://github.com/yahrour/"}
               className="underline"
               target="_blank"
             >
-              0x0bito
+              yahrour
             </Link>
           </li>
         </ul>

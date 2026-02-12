@@ -28,7 +28,7 @@ export default function Home() {
           Email
         </Link>
         <Link
-          href={"https://github.com/0x0bito/"}
+          href={"https://github.com/yahrour/"}
           className="underline"
           target="_blan"
         >

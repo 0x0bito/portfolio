@@ -7,7 +7,7 @@ export const projects = [
     links: [
       {
         title: "view source code",
-        href: "https://github.com/0x0bito/digital-closet",
+        href: "https://github.com/yahrour/digital-closet",
       },
       ,
     ],
@@ -20,7 +20,7 @@ export const projects = [
     links: [
       {
         title: "view source code",
-        href: "https://github.com/0x0bito/tag-based-email-manager",
+        href: "https://github.com/yahrour/tag-based-email-manager",
       },
       ,
     ],
@@ -39,7 +39,7 @@ export const projects = [
     links: [
       {
         title: "view source code",
-        href: "https://github.com/0x0bito/product-nutrition-scanner",
+        href: "https://github.com/yahrour/product-nutrition-scanner",
       },
       ,
     ],
