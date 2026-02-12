@@ -23,16 +23,16 @@ export default function Contact() {
               className="underline"
               target="_blank"
             >
-              /in/youssef-ahrour-2177a6383
+              /in/youssef-ahrour
             </Link>
           </li>
           <li>
             <Link
-              href={"mailto:yo79ss79@gmail.com"}
+              href={"mailto:youssefahrour.contact@gmail.com"}
               className="underline"
               target="_blank"
             >
-              yo79ss79@gmail.com
+              youssefahrour.contact@gmail.com
             </Link>
           </li>
           <li>

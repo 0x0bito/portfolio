@@ -24,7 +24,10 @@ export default function Home() {
         >
           Linkedin
         </Link>
-        <Link href={"mailto:yo79ss79@gmail.com"} className="underline">
+        <Link
+          href={"mailto:youssefahrour.contact@gmail.com"}
+          className="underline"
+        >
           Email
         </Link>
         <Link
